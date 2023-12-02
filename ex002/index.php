@@ -9,10 +9,10 @@
         <h1>Exibindo data e hora:</h1>
         <?php 
             date_default_timezone_set("America/Sao_Paulo");
-            $data = date("d/M/Y");
+            $data = date("d/m/Y");
 
-            echo "A data atual é $data";
-            echo "E são " . date("G:i:s");
+            echo "<p>A data atual é $data<p>";
+            echo "<p>E são " . date("G:i:s") . "<p>";
         ?>
     </body>
 </html>
