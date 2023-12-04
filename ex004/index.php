@@ -23,6 +23,8 @@
         echo "<p>O número $hex é a representação do Hexadecimal 0x2A</p>";
         echo "<p>O número $bin é a representação do Binário 0b1001</p>";
         echo "<p>O número $oct é a representação do Octal 012</p>";
+
+        echo var_dump($hex);
     ?>
 </body>
 </html>
